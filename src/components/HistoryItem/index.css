@@ -1,0 +1,50 @@
+.list-card {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 36px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.para {
+  font-family: Roboto;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.domain-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.heading {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.para-url {
+  color: #64748b;
+  margin-left: 14px;
+}

@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title-card {
+  background-color: #3367d6;
+}
+
+.search-bar-card {
+  border: 1px solid #2850a7;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 400px;
+}
+.logo {
+  width: 140px;
+  height: 36px;
+  margin-right: 100px;
+}
+
+.search-img-card {
+  border: 1px solid #2850a7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 80px;
+}
+.title-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.search-card {
+  display: flex;
+  margin-right: 400px;
+}
+.search-bar {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.back-container {
+  background-color: #ececec;
+  height: 100vh;
+  width: 100vw;
+  padding: 60px;
+}
+
+.list-container {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 26px;
+}
